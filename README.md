@@ -201,7 +201,7 @@ Example response for `/crs/oswald`:
 
 ## Hosting Quick Start
 
-To get your own instance of Huxley (on [App Harbor](https://appharbor.com/) or [Azure](https://azure.microsoft.com/en-gb/)) follow the [instructions on the wiki](https://github.com/jpsingleton/Huxley/wiki/Hosting-Quick-Start).
+To get your own instance of Huxley (on [App Harbor](https://appharbor.com/) or [Azure](https://azure.microsoft.com/en-gb/)) follow the [instructions on the wiki](https://github.com/jpsingleton/Huxley/wiki/Hosting-Quick-Start). as i am trying to do. please work appharbor.
 
 ---
 
