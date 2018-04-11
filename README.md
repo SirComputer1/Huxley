@@ -8,13 +8,13 @@
 
 ## UK National Rail Live Departure Boards JSON proxy
 
-Huxley is a [CORS](http://enable-cors.org/) enabled JSON proxy for the UK National Rail Enquires Live Departure Board [SOAP](http://harmful.cat-v.org/software/xml/soap/simple) [API](http://www.nationalrail.co.uk/46391.aspx) (Darwin). 
+Huxley is a [CORS](http://enable-cors.org/) enabled JSON proxy for the UK National Rail Enquires Live Departure Board [SOAP](http://harmful.cat-v.org/software/xml/soap/simple) [API](http://www.nationalrail.co.uk/46391.aspx) (Darwin), including the staff version. 
 It aims to make the API available to many more tools on multiple platforms. You no longer need .NET on Windows to use Darwin.
 
 [![Tech arch](https://raw.githubusercontent.com/jpsingleton/Huxley/master/HuxleyTechArch.png)](https://huxley.unop.uk)
 
 If you want to be informed of updates when they are released then watch the project on GitHub and **follow [me on Twitter](https://twitter.com/shutdownscanner)**. You can also read about this and other projects on [my blog](https://unop.uk/). 
-If you are interested in cross-platform .NET then you may enjoy reading [my new book, "ASP.NET Core 1.0 High Performance"](https://unop.uk/book/).
+If you are interested in cross-platform .NET then you may enjoy reading [my book, "ASP.NET Core 2 High Performance"](https://unop.uk/book/).
 
 ---
 
@@ -138,11 +138,7 @@ Filter stations can be a comma separated list. Filter type and number of rows ar
 [`/service/{Service ID}?accessToken={Your GUID token}`](https://huxley.apphb.com/service/Z/zlpIG8jJacKayAnOXODw==?accessToken=)
 
 The service ID can be found for each service inside the departures and arrivals response. 
-<<<<<<< HEAD
 Huxley also returns the ID in URL percent encoded, GUID and [URL safe Base64](https://en.wikipedia.org/wiki/Base64#URL_applications) representations (for non-staff boards).
-=======
-Huxley also returns the ID in URL percent encoded, GUID and [URL safe Base64](https://en.wikipedia.org/wiki/Base64#URL_applications) representations (for non-staff boards).
->>>>>>> 3bab7f6950e5d3c59c8e86f142ab257c99c856fa
 Likewise, the service endpoint will accept [URL safe Base64](https://tools.ietf.org/html/rfc4648#section-5) service IDs, from various different encoders.
 
 This endpoint also accepts the [GUID representation of the ID](https://huxley.apphb.com/service/8c105350-4235-44f3-b076-87fe829c577e?accessToken=) as `/`, `+` and case sensitivity can cause trouble if you're not careful.
